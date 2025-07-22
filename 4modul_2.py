@@ -15,7 +15,7 @@ def get_cats_info(path):
 
 
     except FileNotFoundError:
-        print('file didn\'t found')
+        print('file was not found')
 
 for i in get_cats_info('info_cats.txt'):
     print(i)
